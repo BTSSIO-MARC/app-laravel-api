@@ -8,9 +8,10 @@ Route::get('/', function () {
         "version" => "1.0.0",
         "status" => "OK",
         "endpoints" => [
-            "etudiants" => "https://monsite.com/etudiants",
-            "departements" => "https://monsite.com/departements",
-            "documentation" => "https://monsite.com/doc"
+            "etudiants" => "https://domaine.local/etudiants",
+            "communes" => "https://domaine.local/communes",
+            "classes" => "https://domaine.local/classes",
+            "documentation" => "https://domaine.local/doc"
         ]
     ]);
 });
